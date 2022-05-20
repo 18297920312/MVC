@@ -1,0 +1,105 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+*::before {
+    box-sizing: border-box;
+}
+*::after {
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+* {
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+*::after {
+    box-sizing: border-box;
+}
+*::before {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+section {
+    width: 50vw;
+    height: 50vh;
+}
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#app1 {
+    border: 1px solid red;
+}
+#app1 button {
+    padding: 2px;
+}
+#app2 {
+    border: 1px solid blue;
+}
+#app2 .tab_bar {
+    display: flex;
+}
+#app2 .tab_bar li {
+    border: 3px solid black;
+    width: 50%;
+}
+#app2 .tab_content li {
+    display: none;
+}
+.selected {
+    background-color: wheat;
+    color: white;
+}
+#app2 .tab_content > li.active {
+    display: block;
+    
+}
+#app3 {
+    border: 1px solid greenyellow;
+}
+#app3 .square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid  grey;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: transform 1s;
+}
+
+#app3 .active{
+    transform: translateX(300px);
+}
+#app4{
+    border: 1px solid pink;
+}
+#app4 .circle {
+    border: 1px solid goldenrod;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 50%;
+    
+}
+#app4 .bian {
+    animation: change 3s infinite alternate linear;
+}
+@keyframes change {
+    0% {
+        background: white;
+    }
+    40%,60% {
+        background: red;
+    }
+    100% {
+        background: black;
+    }
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

@@ -1,0 +1,22 @@
+* {
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+*::after {
+    box-sizing: border-box;
+}
+*::before {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+section {
+    width: 50vw;
+    height: 50vh;
+}
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
